@@ -2,7 +2,7 @@ function saldoVitorias(vitorias, derrotas){
     return vitorias - derrotas
 }
 
-let saldo = saldoVitorias(200,0)
+let saldo = saldoVitorias(0,0)
 nivel = ""
 
 if (saldo <= 10){
